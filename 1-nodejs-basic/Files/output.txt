@@ -1,0 +1,1 @@
+Writing file data using 'fs' module in Node JS Synchronously. Thu Sep 18 2025 10:23:06 GMT+0500 (Pakistan Standard Time)

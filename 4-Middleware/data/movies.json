@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Jack of All Trades",
+    "director": "tahir",
+    "year": 2004,
+    "genre": "Story"
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "year": 1972,
+    "genre": "Crime"
+  },
+  {
+    "id": 3,
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "year": 1994,
+    "genre": "Crime"
+  },
+  { "id": 4, "title": "new", "director": "abc", "year": 1994, "genre": "xyz" },
+  {
+    "id": 5,
+    "title": "new movie 11/17/2025",
+    "director": "tahir",
+    "year": 2004,
+    "genre": "xyz"
+  },
+  { "id": 6, "title": "new", "director": "abc", "year": 1994, "genre": "xyz" },
+  { "id": 7, "title": "Inception", "year": 2010 }
+]

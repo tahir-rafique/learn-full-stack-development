@@ -1,0 +1,1 @@
+alert('Hello from my first Node APP, JavaScript on frontend Side!');
