@@ -20,14 +20,25 @@
     "year": 1994,
     "genre": "Crime"
   },
-  { "id": 4, "title": "new", "director": "abc", "year": 1994, "genre": "xyz" },
+  {
+    "id": 4,
+    "title": "Doohm 4",
+    "director": "amir",
+    "year": 1994,
+    "genre": "movie"
+  },
   {
     "id": 5,
-    "title": "new movie 11/17/2025",
-    "director": "tahir",
+    "title": "krish 3",
+    "director": "sheikh",
     "year": 2004,
-    "genre": "xyz"
+    "genre": "thrill"
   },
-  { "id": 6, "title": "new", "director": "abc", "year": 1994, "genre": "xyz" },
-  { "id": 7, "title": "Inception", "year": 2010 }
+  {
+    "id": 6,
+    "title": "Dangal ",
+    "director": "Salman",
+    "year": 1994,
+    "genre": "sport"
+  }
 ]

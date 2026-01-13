@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Jack of All Trades",
+    "description": "A story about a man juggling multiple skills and challenges in life.",
+    "duration": 120,
+    "rating": 7.5,
+    "totalRating": 1500,
+    "releaseYear": 2004,
+    "releaseDate": "2004-05-15T00:00:00.000Z",
+    "geners": [
+      "Story",
+      "Comedy"
+    ],
+    "directors": [
+      "Tahir"
+    ],
+    "coverImage": "https://example.com/jack-of-all-trades.jpg",
+    "actors": [
+      "Actor A",
+      "Actor B"
+    ],
+    "price": 10.99
+  },
+  {
+    "name": "The Godfather",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "duration": 175,
+    "rating": 9.2,
+    "totalRating": 50000,
+    "releaseYear": 1972,
+    "releaseDate": "1972-03-24T00:00:00.000Z",
+    "geners": [
+      "Crime",
+      "Drama"
+    ],
+    "directors": [
+      "Francis Ford Coppola"
+    ],
+    "coverImage": "https://example.com/the-godfather.jpg",
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino"
+    ],
+    "price": 15.99
+  },
+  {
+    "name": "Pulp Fiction",
+    "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "duration": 154,
+    "rating": 8.9,
+    "totalRating": 40000,
+    "releaseYear": 1994,
+    "releaseDate": "1994-10-14T00:00:00.000Z",
+    "geners": [
+      "Crime",
+      "Thriller"
+    ],
+    "directors": [
+      "Quentin Tarantino"
+    ],
+    "coverImage": "https://example.com/pulp-fiction.jpg",
+    "actors": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman"
+    ],
+    "price": 12.99
+  },
+  {
+    "name": "Doom 4",
+    "description": "A thrilling sci-fi movie full of action and adventure.",
+    "duration": 130,
+    "rating": 7.0,
+    "totalRating": 1200,
+    "releaseYear": 1994,
+    "releaseDate": "1994-07-20T00:00:00.000Z",
+    "geners": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "directors": [
+      "Amir"
+    ],
+    "coverImage": "https://example.com/doom-4.jpg",
+    "actors": [
+      "Actor X",
+      "Actor Y"
+    ],
+    "price": 11.99
+  },
+  {
+    "name": "Krish 3",
+    "description": "A superhero movie with high-octane action and drama.",
+    "duration": 150,
+    "rating": 7.8,
+    "totalRating": 5000,
+    "releaseYear": 2004,
+    "releaseDate": "2004-11-05T00:00:00.000Z",
+    "geners": [
+      "Thrill",
+      "Action"
+    ],
+    "directors": [
+      "Sheikh"
+    ],
+    "coverImage": "https://example.com/krish-3.jpg",
+    "actors": [
+      "Actor M",
+      "Actor N"
+    ],
+    "price": 13.99
+  },
+  {
+    "name": "Dangal",
+    "description": "Based on a true story, a father trains his daughters to become world-class wrestlers.",
+    "duration": 161,
+    "rating": 8.4,
+    "totalRating": 20000,
+    "releaseYear": 2016,
+    "releaseDate": "2016-12-23T00:00:00.000Z",
+    "geners": [
+      "Sport",
+      "Drama"
+    ],
+    "directors": [
+      "Nitesh Tiwari"
+    ],
+    "coverImage": "https://example.com/dangal.jpg",
+    "actors": [
+      "Aamir Khan",
+      "Fatima Sana Shaikh"
+    ],
+    "price": 14.99
+  }
+]
