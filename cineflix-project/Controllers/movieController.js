@@ -5,8 +5,29 @@ const Movie = require("../Models/movieModel")
 
 exports.getAllMovies = async (req, res) => {
   try {
+    // query parameters ✅
+    // console.log(req.query);
 
-    const movies = await Movie.find();
+    /*
+
+    //  Mongoose 6.6 or less this will work
+       
+     const exclueField = ['page', 'limit', 'sort', 'fields'];
+     const queryObj = { ...req.query };
+    
+      exclueField.forEach(el => delete queryObj[el]);
+    
+     const movies = await Movie.find(queryObj);
+    
+    */
+
+
+    const movies = await Movie.find(req.query);
+
+    // const movies = await Movie.find()
+    //   .where('duration').equals(req.query.duration)
+    //   .where('rating').equals(req.query.rating);
+
     res.status(200).json({
       status: 'success',
       data: {
