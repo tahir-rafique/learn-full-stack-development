@@ -61,3 +61,5 @@ app.use("/api/v1/movies", movieRouter);
 // so, here bascially we are mounting the middleware "movieRouter" on "/api/v1/movies" route
 
 module.exports = app;
+
+console.log('hello tahir')

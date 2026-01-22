@@ -11,18 +11,27 @@ exports.getAllMovies = async (req, res) => {
     /*
 
     //  Mongoose 6.6 or less this will work
-       
+
      const exclueField = ['page', 'limit', 'sort', 'fields'];
      const queryObj = { ...req.query };
     
-      exclueField.forEach(el => delete queryObj[el]);
-    
+     exclueField.forEach(el => delete queryObj[el]);
+
      const movies = await Movie.find(queryObj);
     
     */
 
+    console.log(req.query);
+    const queryStr = JSON.stringify(req.query);
+ 
+    queryStr.replace(/\b(gte|lte|lt)\b/g, (match) => {
+      return `$ match`
+    })
 
     const movies = await Movie.find(req.query);
+    // this find({  name:'tahir',   age:{$gte:18}  }) method is filtering object.
+    // gte = greator then or equal to,
+    //  this above filter
 
     // const movies = await Movie.find()
     //   .where('duration').equals(req.query.duration)
