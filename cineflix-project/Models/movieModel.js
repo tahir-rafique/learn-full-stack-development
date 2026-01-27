@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 //  Schema 
+
+// limiting fields  
+// we can also exclue the fields form schema, if the password should never be exposed to the client, and
+//  that can be done in the schema
 const movieSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -33,7 +37,8 @@ const movieSchema = new mongoose.Schema({
     },
     createdAt: {
         type: Date,
-        default: Date.now()
+        default: Date.now(),
+        select: false, // simple that will hide this field.
     },
     geners: {
         type: [String],
